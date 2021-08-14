@@ -22,15 +22,15 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 @errors
 async def aplay(_, message: Message):
 
-    lel = await message.reply("🔁 **Memproses** audio...")
+    lel = await message.reply("🔁 **memproses** audio")
     sender_id = message.from_user.id
     sender_name = message.from_user.first_name
 
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                 InlineKeyboardButton("💬 ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}"),
-                 InlineKeyboardButton("ᴏᴡɴᴇʀ 🧑🏻‍💻", url=f"https://t.me/{OWNER}"),
+                 InlineKeyboardButton("🥂 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/lfmaohaha"),
+                 InlineKeyboardButton("ᴅᴏɴᴀᴛᴇ 🎁", url=f"saweria.co/nopalle"),
                    
                 ]
             ]
@@ -63,7 +63,7 @@ async def aplay(_, message: Message):
         await message.reply_photo(
         photo=f"{bi}",
         reply_markup=keyboard,
-        caption="▶️ **Memutar** sebuah lagu oleh {}!".format(
+        caption="▶️ **memutar** sebuah lagu oleh {}!".format(
         message.from_user.mention()
         ),
     )
