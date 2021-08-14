@@ -27,7 +27,7 @@ def song(client, message):
     rpk = "[" + user_name + "](tg://user?id=" + str(user_id) + ")"
     query = "".join(" " + str(i) for i in message.command[1:])
     print(query)
-    m = message.reply(f"**🔎 Mencari Lagu Yang Diminta Oleh** {rpk}")
+    m = message.reply(f"**🔎 lagi dicari ya** {rpk}")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -42,10 +42,10 @@ def song(client, message):
         results[0]["url_suffix"]
         results[0]["views"]
     except Exception as e:
-        m.edit("❌ **Lagu Tidak ditemukan.**\n\n**Coba Masukan Judul lagu yang lebih jelas.**")
+        m.edit("❌ **ngga ketemu anj**\n\n**Coba Masukan Judul lagu yang lebih jelas.**")
         print(str(e))
         return
-    m.edit(f"**🔄 Sabar Ya** {rpk} **Lagu Sedang Didownload**")
+    m.edit(f"**🔄 sabar ya** {rpk} **lagi didownload**")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
