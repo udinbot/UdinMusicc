@@ -3,7 +3,7 @@
   <img src="https://telegra.ph/file/ce8487c5293824c1d4afa.jpg">
 </p>
 Cara termudah untuk membuat Bot ini
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Good-Boys-Exe/GohanMusic"><img src="https://img.shields.io/badge/DEPLOY KE-HEROKU-blue?style=plastic&logo=heroku&logoColor=yellow"width="300"heigh="100" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/nopalle/ZyroMusic"><img src="https://img.shields.io/badge/DEPLOY KE-HEROKU-blue?style=plastic&logo=heroku&logoColor=yellow"width="300"heigh="100" /></a></p>
 
 Dapatkan STRING SESSION klik tombol dibawah untuk mendapatkan string (P)
 
@@ -40,7 +40,7 @@ Jika ada pertanyaan silahkan hubungi kami di grup atau di PM owner
 
 ### ❤️ KREDIT MUSIC
 <p>
-    <a href="https://github.com/tofikdn/gohanmusicrobot" target="blank"><img src="https://img.shields.io/badge/TOMI-black?style=plastic&logo=github"width="100" height="40"/></a>
+    <a href="https://github.com/Good-Boys-Exe/gohanmusicrobot" target="blank"><img src="https://img.shields.io/badge/TOMI-black?style=plastic&logo=github"width="100" height="40"/></a>
     <a href="https://github.com/tofikdn/TDMusicBot" target="blank"><img src="https://img.shields.io/badge/TOFIK-black?style=plastic&logo=github"width="100" height="40"/></a>
     <a href="https://github.com/levina-lab/VeezMusic" target="blank"><img src="https://img.shields.io/badge/LEVINA-black?style=plastic&logo=github"width="100" height="40"/></a>
     <a href="https://github.com/kenkansaja/Music-Ken" target="blank"><img src="https://img.shields.io/badge/KEN KAN-black?style=plastic&logo=github"width="100" height="40"/></a>
