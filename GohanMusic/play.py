@@ -33,7 +33,7 @@ def cb_admin_check(func: Callable) -> Callable:
         admemes = a.get(cb.message.chat.id)
         if cb.from_user.id in admemes:
             return await func(client, cb)
-        await cb.answer("bukan lo bgst"), show_alert=True)
+        await cb.answer("bukan lo bgst", show_alert=True)
         return
     return decorator                                                                       
                                           
