@@ -35,7 +35,7 @@ async def start(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        f"""✅ **{bn}** Sedang Online!\n<b>Waktu Online:</b> `{uptime}`""",
+        f"""✅ **{bn}** lagi online mek\n<b>waktu online:</b> `{uptime}`""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -56,10 +56,10 @@ async def start(client: Client, message: Message):
 @Client.on_message(command(["ping", f"ping@{BOT_USERNAME}"]) & ~filters.edited)
 async def ping_pong(client: Client, m: Message):
     start = time()
-    m_reply = await m.reply_text("Pinging...")
+    m_reply = await m.reply_text("NGEN...")
     delta_ping = time() - start
     await m_reply.edit_text(
-        f"{emoji.PING_PONG} **PONG!!**\n"
+        f"{emoji.PING_PONG} **TOTT**\n"
         f"`{delta_ping * 1000:.3f} ms`"
     )
 
