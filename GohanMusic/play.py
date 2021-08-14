@@ -433,7 +433,7 @@ async def play(_, message: Message):
             [
                 [
                  InlineKeyboardButton("🥂 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/lfmaohaha"),
-                 InlineKeyboardButton("ᴅᴏɴᴀᴛᴇ 🎁", url=f"https://saweria.co/nopalle}"),
+                 InlineKeyboardButton("ᴅᴏɴᴀᴛᴇ 🎁", url=f"https://saweria.co/nopalle"),
                 ],
                 [InlineKeyboardButton(text="🗑️ ᴄʟᴏsᴇ 🗑️", callback_data="cls")],
             ]
@@ -480,7 +480,7 @@ async def play(_, message: Message):
             [
                 [
                  InlineKeyboardButton("🥂 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/lfmaohaha"),
-                 InlineKeyboardButton("ᴅᴏɴᴀᴛᴇ 🎁", url=f"https://saweria.co/nopalle}"),
+                 InlineKeyboardButton("ᴅᴏɴᴀᴛᴇ 🎁", url=f"https://saweria.co/nopalle"),
                 ],
                 [InlineKeyboardButton(text="🗑️ ᴄʟᴏsᴇ 🗑️", callback_data="cls")],
             ]
@@ -563,7 +563,7 @@ async def play(_, message: Message):
             [
                 [
                  InlineKeyboardButton("🥂 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/lfmaohaha"),
-                 InlineKeyboardButton("ᴅᴏɴᴀᴛᴇ 🎁", url=f"https://saweria.co/nopalle}"),
+                 InlineKeyboardButton("ᴅᴏɴᴀᴛᴇ 🎁", url=f"https://saweria.co/nopalle"),
                 ],
                 [InlineKeyboardButton(text="🗑️ ᴄʟᴏsᴇ 🗑️", callback_data="cls")],
             ]
@@ -664,7 +664,7 @@ async def lol_cb(b, cb):
             [
                 [
                  InlineKeyboardButton("🥂 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/lfmaohaha"),
-                 InlineKeyboardButton("ᴅᴏɴᴀᴛᴇ 🎁", url=f"https://saweria.co/nopalle}"),
+                 InlineKeyboardButton("ᴅᴏɴᴀᴛᴇ 🎁", url=f"https://saweria.co/nopalle"),
                 ],
                 [InlineKeyboardButton(text="🗑️ ᴄʟᴏsᴇ 🗑️", callback_data="cls")],
             ]
