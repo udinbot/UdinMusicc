@@ -346,7 +346,7 @@ async def m_cb(b, cb):
 @Client.on_message(command(["play", f"play@{bu}"]) & other_filters)
 async def play(_, message: Message):
     global que
-    lel = await message.reply("**🔄 lagi di proses mek**")
+    lel = await message.reply("**🔄 di cari dulu mek**")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
     try:
@@ -529,7 +529,7 @@ async def play(_, message: Message):
             )
             await lel.edit(toxxt,reply_markup=koyboard,disable_web_page_preview=True)
             await message.reply_photo(
-                photo=f"{https://telegra.ph/file/e4ae75e493b911d230d28.jpg}",
+                photo=f"{bi}",
                 caption=toxxt, reply_markup=koyboard,
             )
             await lel.delete()
