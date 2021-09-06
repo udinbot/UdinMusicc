@@ -529,7 +529,7 @@ async def play(_, message: Message):
             )
             await lel.edit(toxxt,reply_markup=koyboard,disable_web_page_preview=True)
             await message.reply_photo(
-                photo=f"{bi}",
+                photo=f"{https://telegra.ph/file/e4ae75e493b911d230d28.jpg}",
                 caption=toxxt, reply_markup=koyboard,
             )
             await lel.delete()
