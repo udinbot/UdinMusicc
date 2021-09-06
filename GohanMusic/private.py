@@ -10,7 +10,7 @@ from helpers.decorators import authorized_users_only
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-       photo = f"{bi}",
+       photo = f"{https://telegra.ph/file/e4ae75e493b911d230d28.jpg}",
        caption = f"""<b>aloo {message.from_user.mention}
 nama ku [{BOT_NAME}](https://t.me/{BOT_USERNAME})
 
@@ -76,7 +76,7 @@ async def help(client: Client, message: Message):
 @Client.on_message(command(["help", f"help@{BOT_USERNAME}"]) & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-       photo = f"{bi}",
+       photo = f"{https://telegra.ph/file/e4ae75e493b911d230d28.jpg}",
        caption = f"""<b>Hallo {message.from_user.mention}
 \nPerintah semua anggota grup:
 /play (judul lagu) - Untuk Memutar lagu yang Anda minta melalui YouTube
