@@ -45,7 +45,7 @@ async def start(client: Client, message: Message):
                         "sᴜᴘᴘᴏʀᴛ 💬", url=f"https://t.me/{SUPPORT_GROUP}")
                   ],[
                     InlineKeyboardButton(
-                         "🛠 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🛠", url="https://github.com/nopalle/ZyroMusic")
+                         "🛠 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🛠", url="https://github.com/udinn/udinMusic")
 
                 ]
             ]
