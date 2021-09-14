@@ -29,8 +29,8 @@ async def aplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                 InlineKeyboardButton("🥂 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/lfmaohaha"),
-                 InlineKeyboardButton("ᴅᴏɴᴀᴛᴇ 🎁", url=f"saweria.co/nopalle"),
+                 InlineKeyboardButton("🥂 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/seriosagabut"),
+                 InlineKeyboardButton("ᴅᴏɴᴀᴛᴇ 🎁", url=f"https://t.me/lxxiin"),
                    
                 ]
             ]
