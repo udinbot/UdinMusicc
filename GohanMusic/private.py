@@ -16,7 +16,7 @@ nama ku [{BOT_NAME}](https://t.me/{BOT_USERNAME})
 
 aku adalah bot canggih yang dibuat untuk memutar musik di obrolan suara grup telegram
 
-tekan » /help « untuk melihat daftar perintah yang saya pinya</b>""",
+tekan » /help « untuk melihat daftar perintah yang saya punya</b>""",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
@@ -31,7 +31,7 @@ tekan » /help « untuk melihat daftar perintah yang saya pinya</b>""",
                   ],
                   [
                     InlineKeyboardButton(
-                         "✨ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ✨", url="https://github.com/nopalle/ZyroMusic")
+                         "✨ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ✨", url="https://github.com/udinn/udinMusic")
                 ]
             ]
         )
