@@ -3,7 +3,7 @@
   <img src="https://telegra.ph/file/cc41ee19959f69d5ecd71.jpg">
 </p>
 Cara termudah untuk membuat Bot ini
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/udinn/udinMusic"><img src="https://img.shields.io/badge/DEPLOY KE-HEROKU-blue?style=plastic&logo=heroku&logoColor=yellow"width="300"heigh="100" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/udin/udinMusicc"><img src="https://img.shields.io/badge/DEPLOY KE-HEROKU-blue?style=plastic&logo=heroku&logoColor=yellow"width="300"heigh="100" /></a></p>
 
 Dapatkan STRING SESSION klik tombol dibawah untuk mendapatkan string (P)
 
