@@ -3,7 +3,7 @@
     "logo": "https://telegra.ph/file/72fee3e0ab7e48b40d36c.jpg",
     "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
     "keywords": ["bot music telegram", "bot musik", "cara membuat bot musik di telegram"],
-    "repository": "https://github.com/udin/UdinMusicc",
+    "repository": "https://github.com/udinbot/UdinMusicc",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
