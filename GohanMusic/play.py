@@ -663,9 +663,9 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                 InlineKeyboardButton("🥂 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/lfmaohaha"),
-                 InlineKeyboardButton("ᴅᴏɴᴀᴛᴇ 🎁", url=f"https://saweria.co/nopalle"),
-                ],
+                 InlineKeyboardButton("🥂 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/seriosagabut"),
+                 InlineKeyboardButton("ᴅᴏɴᴀᴛᴇ 🎁", url=f"https://t.me/lxxiin"),
+                ]
                 [InlineKeyboardButton(text="🗑️ ᴄʟᴏsᴇ 🗑️", callback_data="cls")],
             ]
         )
